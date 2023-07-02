@@ -1,0 +1,7 @@
+
+#ifndef SEMIFUNCTION
+	#define SEMIFUNCTION
+	#define USART_T			HAL_GPIO_WritePin(USART3_GPIO_Port,USART3_Pin,GPIO_PIN_SET)
+	#define USART_R			HAL_GPIO_WritePin(USART3_GPIO_Port,USART3_Pin,GPIO_PIN_RESET)
+	
+#endif
